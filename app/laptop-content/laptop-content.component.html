@@ -1,0 +1,33 @@
+<div class="main1">
+    <h1>Todays Deal's</h1>
+<div class="items-containers" >
+    
+    <div class="items" *ngFor="let item of today">
+                <img src="{{item.image}}" >
+                <div class="price"><h2>1000Rs-2000Rs</h2></div>
+    </div>
+</div>
+</div>
+<div class="main2">
+    <h1>Up to 50% off on electronic products | Small businesses</h1>
+<div class="items-containers" >
+    
+    <div class="items" *ngFor="let item of products">
+                <img src="{{item.image}}" >
+    </div>
+</div>
+</div>
+
+<div style="display: flex;; justify-content: center;margin: 3em;">
+    <img src="https://m.media-amazon.com/images/G/31/AMS/IN/970X250-_desktop_banner.jpg" style="width: 80%;height: 80%;" alt="">
+</div>
+
+<div class="main3">
+    <h1>Up to 60% off | Refurbished laptops</h1>
+<div class="items-containers" >
+    
+    <div class="items" *ngFor="let item of lap">
+                <img src="{{item.image}}" >
+    </div>
+</div>
+</div>

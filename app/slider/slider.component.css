@@ -1,0 +1,35 @@
+
+.b1{
+    background-image: url("https://m.media-amazon.com/images/G/01/AdProductsWebsite/long-term-assets/ad-specs/ss_expanse_do._TTW_.jpg");
+    background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+}
+
+
+
+.mySlides-Container{
+    padding: 10em;
+    display: flex;
+    /* margin: 3rem; */
+    /* background-color: black; */
+    justify-content: center;
+}
+
+ .mySlides{
+
+
+    border-radius: 1rem;
+    box-shadow:0.2rem 0.2rem black;
+    background-color: black;
+    
+} 
+.mySlides img{
+    
+    width: 125em;
+    height: 70em;
+    border-radius: 0.5rem;
+    
+}

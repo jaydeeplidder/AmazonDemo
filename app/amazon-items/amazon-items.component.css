@@ -1,0 +1,40 @@
+.items-containers{
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* background-color:gainsboro; */
+    /* width: 100%; */
+    /* margin: auto; */
+    /* margin-left: 1em; */
+    /* margin-right: 1em; */
+}
+
+.items{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: black;
+    background-color:white;
+    /* padding: 10.5em; */
+    padding: 2em;
+    width: 40em;
+    margin: 2em;
+
+    border: 0.1em solid black;
+}
+.items img{
+    width: 35em;
+    border-radius: 1em;
+}
+
+.items h1{
+    font-size: 3em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.comment{
+    font-size: 1.5em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
